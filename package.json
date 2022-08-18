@@ -1,0 +1,15 @@
+{
+  "name": "consolidated-failed-scenarios-html-reporter",
+  "version": "0.0.1",
+  "description": "Generate in the 'onComplete' hook a consolidated failed scenarios HTML report based on the cucumber JSON report",
+  "repository": "git@github.com:VitaliLebedzeu/consolidated-failed-scenarios-html-reporter.git",
+  "main": "",
+  "engines": {
+    "yarn": "3.2.2",
+    "node": "^16.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  },
+  "packageManager": "yarn@3.2.2"
+}
