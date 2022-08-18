@@ -1,3 +1,4 @@
+// Yarn related configuration without zero-installs
 .pnp.*
 .yarn/*
 !.yarn/patches
