@@ -8,8 +8,14 @@
     "yarn": "3.2.2",
     "node": "^16.15.0"
   },
+  "scripts": {
+    "lint": "eslint --fix \"./**/*.js\" -f stylish && eslint \"./**/*.js\" -f json -o report_results/eslint/report.json"
+  },
   "devDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.22.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.6",
+    "eslint-plugin-prefer-arrow": "^1.2.3"
   },
   "packageManager": "yarn@3.2.2"
 }

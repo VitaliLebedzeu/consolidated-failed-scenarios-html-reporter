@@ -1,0 +1,44 @@
+{
+  "globals": {
+      "describe": true,
+      "expect": true,
+      "it": true
+  },
+  "env": {
+      "es2021": true,
+      "jest": true,
+      "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+      "ecmaVersion": "latest"
+  },
+  "plugins": [
+      "eslint-plugin-import",
+      "eslint-plugin-jsdoc",
+      "eslint-plugin-prefer-arrow"
+  ],
+  "rules": {
+      "eol-last": [
+          "error",
+          "always"
+      ],
+      "indent": [
+          "error"
+      ],
+      "linebreak-style": [
+          "error",
+          "unix"
+      ],
+      "no-multi-spaces": "error",
+      "no-return-await": "error",
+      "semi": [
+          "error",
+          "never"
+      ],
+      "quotes": [
+          "error",
+          "single"
+      ]
+  }
+}
