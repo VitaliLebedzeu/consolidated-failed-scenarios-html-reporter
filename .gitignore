@@ -1,6 +1,6 @@
 // Yarn related configuration without zero-installs
+.pnp.*
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -9,3 +9,6 @@
 
 // Report results
 report_results
+
+// PNPM references
+node_modules

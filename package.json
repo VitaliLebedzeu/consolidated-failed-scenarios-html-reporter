@@ -12,10 +12,12 @@
     "lint": "eslint --fix \"./**/*.js\" -f stylish && eslint \"./**/*.js\" -f json -o report_results/eslint/report.json"
   },
   "devDependencies": {
+    "@types/node": "^18.7.14",
     "eslint": "^8.22.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.3.6",
-    "eslint-plugin-prefer-arrow": "^1.2.3"
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "typescript": "^4.8.2"
   },
   "packageManager": "yarn@3.2.2"
 }
